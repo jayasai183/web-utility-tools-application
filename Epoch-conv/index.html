@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="time-conv.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Timestamp Converter</title>
+</head>
+<body>
+    <header class="header-class">
+        <span class="header-data-class">Timestamp Converter</span>
+        <span id="home-id" class="header-data-class"><a href="index.html">Home</a></span>
+    </header>
+    <main id="main-id" class="main-class">
+        <div id="content-id" class="content-class">
+            <div id="content-id2" class="content-class2">
+                <div id="input-content-id" class="input-content-class">
+                    <div id="input-div-id" class="input-div-class">
+                        <input id="input-id1" class="input-class" placeholder="Enter the time">
+                        <input id="input-id2" class="input-class" placeholder="Result appear here">
+                    </div>
+                    <div id="button-div-id" class="button-div-class">
+                        <input id="button-id1" class="button-class" type="button" value="Convert">
+                    </div>
+                </div>
+                <div id="useOptions-id" class="useOptions-class">
+                    <span><b>How to use Timestamp Converter ?</b><span>
+                    <span>
+                        <ol>
+                            <li>Select the Type of Conversion You want from Time Conversions list.</li>
+                            <li>Type in the Time in the input box</li>
+                            <li>Click the "Convert" button and Get result in output box</li>
+                        </ol> 
+                    </span>
+                </div>  
+            </div>
+            <div id="nav-div-id" class="nav-div-class">
+                <nav id="nav-id" class="nav-class">
+                    <div class="time">
+                        <span><b><i>The current Epoch Time: </b></i></span>
+                        <span class="epoch-time"></span>
+                    </div>
+                    <br>
+                    <div class="time">
+                        <span><b><i>The current Human Time: </b></i></span>
+                        <span id="h-time" class="epoch-time"></span>
+                    </div>
+                    <br>
+                    <div><b><u>Time Conversions</u></b></div>
+                    <div class="list-class">
+                        <label><input id="h2t" type="radio" name="list">Human date to Epoch Timestamp</label><br>
+                        <label><input id="t2h" type="radio" name="list">Epoch Timestamp to Human Date</label><br>
+                    </div>
+                </nav>
+            </div> 
+        </div>  
+        <div id="define-id" class="define-class">
+                <div class="question"><b>What do Timestamp Converter do?</b></div>
+                <ul>
+                    <li>Epoch time, also known as Unix timestamps, is the number of seconds that have elapsed since January 1, 1970 at 00:00:00 GMT (1970-01-01 00:00:00 GMT).</li>
+                    <li>Epoch converter is designed to convert an epoch timestamp into a human readable date and vice-versa using JavaScript Date object.</li>
+                    <li>You can convert Epoch Timestamp into Human date and vice-versa</li>
+                </ul>
+            </div>
+        
+    </main>
+    <footer class="footer">
+        <div id="footer-id" class="footer-class">WEB TOOLS - String Utilities</div>
+    </footer>    
+</body>
+</html>
